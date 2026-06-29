@@ -33,7 +33,7 @@ print(planilha)
 planilha.loc[16] = ["Pablo", 52, 1.8, "Masculino"]
 print(planilha)
 
-#atualizar um registro,apenas uma coluna
+#atualizar um registro,zapenas uma coluna
 planilha.loc[16, "Nome"] = "Pablo Sandi"
 print(planilha)
 
